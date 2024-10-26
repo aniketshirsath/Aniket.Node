@@ -1,0 +1,58 @@
+.btn
+{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+
+}
+.grid
+{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+@media(min-width:576px)
+{
+  .grid
+{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+}
+
+@media(min-width:768px)
+{
+  .grid
+{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+}
+
+@media(min-width:1200px)
+{
+  .grid
+{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+}
